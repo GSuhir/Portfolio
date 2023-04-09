@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 3px;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+
+.header {
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #094d6e;
+    color: #ecd8d8;
+}
+
+a {
+    color: #ecd8d8;
+    text-decoration: none;
+}
+
+header header ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+header h1 {
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 81px;
+}
+
+.header header {
+    padding-top: 75px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.container {
+    background-image:url(carbon_fibre.webp);
+    background-repeat: repeat;
+    background-size: 50px 10px;
+    margin: 2px 4px 10px 2px;
+}
+
+
+
+h2 {
+    color:antiquewhite;
+    display: inline-block;
+}
+
+.text {
+    text-align: right;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
