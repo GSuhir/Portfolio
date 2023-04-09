@@ -70,7 +70,7 @@ h3 {
     margin-left: 60px;
 }
 
-.paragraph {
+.paragraph, .buttons{
     color:black;
     font-family:monospace, Arial, Helvetica, sans-serif;
     font-size: 22px;
@@ -89,3 +89,33 @@ h3 {
     display: block;
     margin-left: 60px;
 }
+
+.image-1 {
+    width: 1500px;
+    height: 300px;
+    filter: blur(4px);
+    cursor: pointer;
+}
+
+.buttons {
+    position: relative;
+    cursor: pointer;
+}
+
+.Refactoring-For-Accessibility {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: rgba(29, 2, 2, 0.849);
+    background-color: rgb(128, 180, 240);
+    text-align: left;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    margin: 0;
+    font-family: monospace, Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
